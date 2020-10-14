@@ -1,17 +1,6 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, Text, StatusBar} from 'react-native';
+import Landing from './app/views/landing';
 
-const App = () => {
-  return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView>
-          <Text>Foo</Text>
-        </ScrollView>
-      </SafeAreaView>
-    </>
-  );
-};
+const App = () => <Landing />;
 
 export default App;
