@@ -6,9 +6,9 @@ import NavStyle from './style';
 const NavBar = () => {
   return (
     <View style={NavStyle.container}>
-      <Heading> FOO </Heading>
-      <Heading> BAR </Heading>
-      <Heading> X </Heading>
+      <Heading> |||| </Heading>
+      <Heading> CURRENT VIEW </Heading>
+      <Heading> :: </Heading>
     </View>
   );
 };
