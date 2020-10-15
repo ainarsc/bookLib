@@ -1,17 +1,18 @@
 import {StyleSheet} from 'react-native';
+import {FONT_FAMILY, COLOR_TEXT, FONT_SIZE} from '../../constants';
 
 const NavStyle = StyleSheet.create({
   container: {
-    flex: 1,
     flexDirection: 'row',
     height: 60,
-    marginBottom: 5,
     alignItems: 'center',
     justifyContent: 'space-evenly',
     backgroundColor: '#111e6c',
   },
   items: {
-    color: '#f5d061',
+    color: COLOR_TEXT,
+    fontFamily: FONT_FAMILY,
+    fontSize: FONT_SIZE,
   },
 });
 

@@ -1,0 +1,9 @@
+export const FONT_FAMILY = 'Raleway';
+export const COLOR_PRIMARY = '#111e6c';
+export const COLOR_SECONDARY = '#f5d061';
+export const COLOR_TEXT = '#edfeff';
+export const BOLD = 'bold';
+export const FONT_SIZE_NORMAL = 12;
+export const FONT_SIZE_LARGE = 16;
+export const FONT_WEIGHT_HEAVY = 'bold';
+export const FONT_WEIGHT_NORMAL = 'normal';

@@ -1,24 +1,43 @@
 import React from 'react';
-import {View, ScrollView, Text, StatusBar} from 'react-native';
+import {View, ScrollView, StatusBar} from 'react-native';
 import NavBar from '../navigationBar';
+import Book from './book';
+import MainStyle from './style';
 
-const index = () => {
+const Main = () => {
   return (
     <>
       <StatusBar backgroundColor="#f5d061" />
-      <ScrollView>
-        <NavBar />
-        <View>
-          <Text> FOO Main FOO</Text>
-          <Text> FOO Main FOO</Text>
-          <Text> FOO Main FOO</Text>
-          <Text> FOO Main FOO</Text>
-          <Text> FOO Main FOO</Text>
-          <Text> FOO Main FOO</Text>
+      <NavBar />
+      <ScrollView style={MainStyle.container}>
+        <View style={MainStyle.row}>
+          <Book />
+          <Book />
+          <Book />
+        </View>
+        <View style={MainStyle.row}>
+          <Book />
+          <Book />
+          <Book />
+        </View>
+        <View style={MainStyle.row}>
+          <Book />
+          <Book />
+          <Book />
+        </View>
+        <View style={MainStyle.row}>
+          <Book />
+          <Book />
+          <Book />
+        </View>
+        <View style={MainStyle.row}>
+          <Book />
+          <Book />
+          <Book />
         </View>
       </ScrollView>
     </>
   );
 };
 
-export default index;
+export default Main;
