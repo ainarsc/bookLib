@@ -1,11 +1,13 @@
 import React from 'react';
 import {View, ScrollView, Text, StatusBar} from 'react-native';
+import NavBar from '../navigationBar';
 
 const index = () => {
   return (
     <>
-      <StatusBar backgroundColor="#111e6c" />
+      <StatusBar backgroundColor="#f5d061" />
       <ScrollView>
+        <NavBar />
         <View>
           <Text> FOO Main FOO</Text>
           <Text> FOO Main FOO</Text>
