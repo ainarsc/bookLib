@@ -4,7 +4,7 @@ import NavBar from '../navigationBar';
 import Book from './book';
 import MainStyle from './style';
 
-const Main = () => {
+const Main = ({navigation}) => {
   return (
     <>
       <StatusBar backgroundColor="#f5d061" />
