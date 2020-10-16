@@ -4,9 +4,9 @@ const BookStyle = StyleSheet.create({
   container: {
     flex: 1,
     margin: 5,
-    alignItems: 'center',
-    justifyContent: 'space-evenly',
+    justifyContent: 'flex-start',
     backgroundColor: '#7197b3',
+    padding: 10,
   },
   items: {
     color: '#f5d061',
