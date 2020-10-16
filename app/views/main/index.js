@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, ScrollView, StatusBar} from 'react-native';
-import NavBar from '../navigationBar';
+// import NavBar from '../navigationBar';
 import Book from './book';
 import MainStyle from './style';
 
@@ -8,7 +8,7 @@ const Main = ({navigation}) => {
   return (
     <>
       <StatusBar backgroundColor="#f5d061" />
-      <NavBar />
+      {/* <NavBar /> */}
       <ScrollView style={MainStyle.container}>
         <View style={MainStyle.row}>
           <Book />
