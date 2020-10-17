@@ -1,14 +1,12 @@
 import React from 'react';
 import {View, ScrollView, StatusBar} from 'react-native';
-// import NavBar from '../navigationBar';
 import Book from './book';
 import MainStyle from './style';
 
-const Main = ({navigation}) => {
+const Library = () => {
   return (
     <>
       <StatusBar backgroundColor="#f5d061" />
-      {/* <NavBar /> */}
       <ScrollView style={MainStyle.container}>
         <View style={MainStyle.row}>
           <Book />
@@ -40,4 +38,4 @@ const Main = ({navigation}) => {
   );
 };
 
-export default Main;
+export default Library;
