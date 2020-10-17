@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 const { getDefaultConfig } = require("metro-config");
+const blacklist = require('metro-config/src/defaults/blacklist');
 
 module.exports = (async () => {
   const {
@@ -21,8 +22,12 @@ module.exports = (async () => {
       babelTransformerPath: require.resolve("react-native-svg-transformer"),
     },
     resolver: {
+      blacklistRE: blacklist([
+        /node_modules\/.*\/node_modules\/react-native\/.*/,
+      ]),
       assetExts: assetExts.filter((ext) => ext !== "svg"),
       sourceExts: [...updatedSourceExts, "svg"],
+      
     },
   }
 })()

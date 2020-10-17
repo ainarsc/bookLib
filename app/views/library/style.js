@@ -7,7 +7,7 @@ const MainStyle = StyleSheet.create({
     backgroundColor: COLOR_BACKGROUND,
   },
   row: {
-    flex: 1,
+    flex: 3,
     flexDirection: 'row',
     height: 160,
   },

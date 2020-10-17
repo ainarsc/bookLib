@@ -10,28 +10,6 @@ const Library = () => {
       <ScrollView style={MainStyle.container}>
         <View style={MainStyle.row}>
           <Book />
-          <Book />
-          <Book />
-        </View>
-        <View style={MainStyle.row}>
-          <Book />
-          <Book />
-          <Book />
-        </View>
-        <View style={MainStyle.row}>
-          <Book />
-          <Book />
-          <Book />
-        </View>
-        <View style={MainStyle.row}>
-          <Book />
-          <Book />
-          <Book />
-        </View>
-        <View style={MainStyle.row}>
-          <Book />
-          <Book />
-          <Book />
         </View>
       </ScrollView>
     </>

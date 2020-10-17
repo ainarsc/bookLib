@@ -13,7 +13,6 @@
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.7.6",
     "@react-navigation/stack": "^5.9.3",
-    "epubjs-rn": "^0.1.5",
     "react": "16.13.1",
     "react-native": "0.63.2",
     "react-native-elements": "^3.0.0-alpha.1",
@@ -21,11 +20,14 @@
     "react-native-reanimated": "^1.13.1",
     "react-native-safe-area-context": "^3.1.8",
     "react-native-screens": "^2.11.0",
+    "react-native-static-server": "^0.5.0",
     "react-native-svg": "^12.1.0",
     "react-native-svg-transformer": "^0.14.3",
     "react-native-svg-uri": "^1.2.3",
     "react-native-vector-icons": "^7.1.0",
-    "react-native-web": "^0.14.1"
+    "react-native-web": "^0.14.1",
+    "react-native-webview": "^10.9.2",
+    "react-native-zip-archive": "^5.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
