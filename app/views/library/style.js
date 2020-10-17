@@ -1,9 +1,10 @@
 import {StyleSheet} from 'react-native';
+import {COLOR_BACKGROUND} from '../../constants';
 
 const MainStyle = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5649b3',
+    backgroundColor: COLOR_BACKGROUND,
   },
   row: {
     flex: 1,

@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {COLOR_TEXT, FONT_SIZE, FONT_WEIGHT_NORMAL} from '../constants';
+import {COLOR_TEXT_LIGHT, FONT_WEIGHT_NORMAL, FONT_FAMILY} from '../constants';
 
 const DefaultText = ({children}) => {
   return (
@@ -12,9 +12,12 @@ const DefaultText = ({children}) => {
 
 const styles = StyleSheet.create({
   text: {
-    color: COLOR_TEXT,
-    fontSize: FONT_SIZE,
+    fontFamily: FONT_FAMILY,
+    color: COLOR_TEXT_LIGHT,
+    fontSize: 18,
     fontWeight: FONT_WEIGHT_NORMAL,
+    textAlign: 'justify',
+    lineHeight: 23,
   },
 });
 

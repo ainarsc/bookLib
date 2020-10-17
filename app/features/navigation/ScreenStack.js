@@ -2,17 +2,15 @@ import React from 'react';
 import {View, StyleSheet} from 'react-native';
 import SettingsButton from '../../components/SettingsButton';
 import {COLOR_PRIMARY, COLOR_TEXT_LIGHT} from '../../constants';
-//REACT NAVIGATION COMPONENTS
 import {createStackNavigator} from '@react-navigation/stack';
-
 //SCREENS
 import Library from '../../views/library';
 import Book from '../../views/book';
 
 //CONSTANTS
-const INITIAL_ROUTE = 'Library';
 const LIBRARY = 'Library';
 const BOOK = 'Book';
+const INITIAL_ROUTE = 'Library';
 
 const styles = StyleSheet.create({
   headerRight: {paddingRight: 10},

@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import {COLOR_SECONDARY, COLOR_TEXT} from '../../../constants';
 
 const BookStyle = StyleSheet.create({
   container: {
@@ -6,11 +7,11 @@ const BookStyle = StyleSheet.create({
     margin: 5,
     alignItems: 'center',
     justifyContent: 'space-evenly',
-    backgroundColor: '#7197b3',
+    backgroundColor: COLOR_SECONDARY,
     borderRadius: 3,
   },
   items: {
-    color: '#f5d061',
+    color: COLOR_TEXT,
   },
 });
 

@@ -1,15 +1,15 @@
 import {StyleSheet} from 'react-native';
+import {COLOR_TEXT_LIGHT, COLOR_BACKGROUND_DARK} from '../../constants';
 
 const BookStyle = StyleSheet.create({
   container: {
     flex: 1,
-    margin: 5,
     justifyContent: 'flex-start',
-    backgroundColor: '#7197b3',
+    backgroundColor: COLOR_BACKGROUND_DARK,
     padding: 10,
   },
   items: {
-    color: '#f5d061',
+    color: COLOR_TEXT_LIGHT,
   },
 });
 
