@@ -6,7 +6,6 @@ const BookStyle = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-start',
     backgroundColor: COLOR_BACKGROUND_DARK,
-    padding: 10,
   },
   items: {
     color: COLOR_TEXT_LIGHT,

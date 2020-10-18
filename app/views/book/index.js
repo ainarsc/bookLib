@@ -5,10 +5,14 @@ import {Epub} from '@ottofeller/epubjs-rn';
 import themes from './reader.json';
 
 const Book = () => {
-  const Dick = 'https://s3.amazonaws.com/epubjs/books/moby-dick.epub';
   return (
     <View style={BookStyle.container}>
-      <Epub flow="paginated" width="100%" height="100%" src={Dick} />
+      <Epub
+        src={'https://s3.amazonaws.com/epubjs/books/moby-dick/OPS/package.opf'}
+        flow={'paginated'}
+        themes={themes}
+        theme={'dark'}
+      />
     </View>
   );
 };
