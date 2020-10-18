@@ -11,6 +11,9 @@ const BookStyle = StyleSheet.create({
   items: {
     color: COLOR_TEXT_LIGHT,
   },
+  reader: {
+    backgroundColor: COLOR_BACKGROUND_DARK,
+  },
 });
 
 export default BookStyle;
